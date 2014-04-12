@@ -9,5 +9,5 @@ However, I didn't do any input sanitization. It's really easy to inject arbitrar
 
 If you don't want to construct an account, feel free to use mine on the example database:
 
-username: matt
-password: hello
+> username: matt
+> password: hello
