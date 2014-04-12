@@ -1,0 +1,173 @@
+﻿html 
+{
+    background-color:#5e92b2;
+    background-image:url("images/background.png");
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family:Sans-Serif;
+    color: #4a738c;
+}
+section#header
+{
+    width:42%;
+    margin-right:auto;
+    margin-left:auto;
+    overflow:auto;
+}
+#header h1
+{
+    margin:10px;
+    text-align:center;
+    color: #fff;
+    font-size:70px;
+    font-variant:small-caps;
+    font-style:italic;
+}
+#header h1 a
+{
+    color:#fff;
+    font-weight:bold;
+    text-shadow:0 0 20px #a9d5f1;
+    font-family: Tahoma;
+}
+#header h1 a:hover
+{
+    text-shadow:0 0 20px #fff;
+}
+#header a
+{
+    text-decoration: none;
+    color:#a9d5f1;
+    font-weight:bold;
+}
+#header span#rightnav
+{
+    float:right;
+}
+#header span#uname
+{
+    color:#fff;
+}
+#header span#leftnav
+{
+    float:left;
+}
+h2
+{
+    margin-bottom:4px;
+    margin-top:4px;
+}
+h3
+{
+    margin-bottom:4px;
+    margin-top:4px;
+}
+p
+{
+    margin-top:4px;
+}
+section.container
+{
+    background-color:#fff;
+    width:40%;
+    min-width:300px;
+    margin-top:10px;
+    margin-right:auto;
+    margin-left:auto;
+    padding:10px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 0px 0px 10px #a9d5f1;
+}
+section.container a
+{
+    color: #6a91aa;
+}
+label
+{
+    display:inline-block;
+    width:9em;
+    text-align:right;
+}
+.err
+{
+    color:Red;
+}
+
+
+/*question styles*/
+section.question
+{
+    position:fixed;
+}
+section.question img,
+section.question input, 
+section.question h3,
+section.question p
+{
+    margin-left:50px;
+}
+button, input.submit
+{
+    margin-top: 10px;
+    padding:5px 10px 5px 10px;
+    font-size:1em;
+}
+button#next, input#next
+{
+    margin-left: 60px;
+}
+section.question input
+{
+    margin-top:5px;
+}
+#placeholder img, section.question img
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+section.question img.loadnext
+{
+    display:inline;
+    vertical-align:middle;
+    margin-left:0;
+    margin-right:4px;
+}
+.question label
+{
+    display:inline-block;
+    width:auto;
+    text-align:left;
+}
+p.correct
+{
+    font-weight:bold;
+    color:Green;
+}
+p.wrong
+{
+    font-weight:bold;
+    color:Red;
+}
+h1.huge
+{
+    text-align:center;
+    font-size:0; /* yes, zero. jQuery makes this zoom in */
+}
+.center
+{
+    text-align:center;
+}
+section.question.center *
+{
+    margin-left:0;
+}
+div.qnum
+{
+    font-style:italic;
+    text-align:right;
+    margin-right:50px;
+}
